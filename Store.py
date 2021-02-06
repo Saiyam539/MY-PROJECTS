@@ -1,14 +1,14 @@
 class store:
     @staticmethod
     def getproduct():
-        product = ['Shampo', 'Chocolate', 'Books', 'Dal', 'Tooth paste']
+        product = ['Shampoo', 'Chocolate', 'Books', 'Dal', 'Tooth paste']
         for a in range(len(product)):
             print(product[a])
             a = a + 1
 
     @staticmethod
     def buyproduct():
-        product = ['Shampo', 'Chocolate', 'Books', 'Dal', 'Tooth paste']
+        product = ['shampoo', 'chocolate', 'books', 'dal', 'tooth paste']
         n = input('Enter the name of the product you want to buy:- ')
         if n in product:
             print('Thanks for buying this product!!')
